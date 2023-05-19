@@ -1,0 +1,33 @@
+.modal {
+  .modal-dialog {
+    position: relative;
+
+    .modal-content {
+      .modal-header {
+        padding: 0px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .modal-body {
+        padding: 20px 30px;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      .modal-footer {
+        letter-spacing: 1px;
+        padding: 10px 30px;
+      }
+    }
+    .btn-close {
+      position: absolute;
+      top: 0px;
+      right: -50px;
+      font-size: 20px;
+      background-color: rgb(171, 171, 171);
+    }
+  }
+}
