@@ -31,3 +31,28 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .modal {
+    padding-right: 40px;
+    .modal-dialog {
+      position: relative;
+
+      .modal-content {
+        .modal-body{
+          padding: 10px 10px;
+          font-size: 16px;
+        }
+        .modal-footer{
+          padding: 10px 10px;
+          letter-spacing: 0px;
+        }
+      }
+      .btn-close{
+        position: absolute;
+        top: 10px;
+        right: -40px;
+      }
+    }
+  }
+}

@@ -46,3 +46,21 @@
     gap: 20px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .main {
+    .header {
+      padding: 20px 20px;
+      h1 {
+        font-size: 22px;
+      }
+
+      .input {
+        input {
+          width: 170px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
